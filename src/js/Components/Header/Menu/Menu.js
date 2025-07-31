@@ -1,5 +1,5 @@
 import React from "react";
-import "./_menu.scss"
+import "./_menu.scss";
 
 const Menu = (props) => {
     return (
@@ -15,4 +15,3 @@ const Menu = (props) => {
     )
 }
 export default Menu;
-

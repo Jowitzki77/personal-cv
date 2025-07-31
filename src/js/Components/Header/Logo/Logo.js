@@ -1,9 +1,9 @@
 import React from "react";
 
 import logo from "../../../../assets/logo.svg";
-const Logo = () => {
+const Logo = (props) => {
     return (
-        <div className="header__logo">
+        <div className={props.type}>
             <img src={logo} alt="Logo" />
         </div>
     )
