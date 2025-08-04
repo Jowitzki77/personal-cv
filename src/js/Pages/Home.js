@@ -44,7 +44,7 @@ const Home = () => {
                 </div>
             </Header>
             <Banner/>
-            <Section type="tech" title="My Tech Stack" subtitle="Technologies I've been working with recently">
+            <Section type="tech" title="My Tech Stack" subtitle="Technologies I’ve been working with recently">
                 <Social type={"tech"} items={[
                     { url: "#", src: html, alt: "HTML" },
                     { url: "#", src: css, alt: "CSS" },
@@ -57,7 +57,7 @@ const Home = () => {
 
                 ]}/>
             </Section>
-            <Section type="projects" title="Projects" subtitle="Things I've built so far">
+            <Section type="projects" title="Projects" subtitle="Things I’ve built so far">
                 <Projects/>
             </Section>
             <Header type="footer">
@@ -67,14 +67,13 @@ const Home = () => {
                           items={
                               [
                                   { title: "+91 12345 09876", url: "tel:+91 12345 09876" },
-                                  { title: "info@example.com", url: "mailto:info@example.com" }
+                                  { title: "info@example.com", url: "mailto:info@example.com" },
                               ]
                           }/>
                     <Social type="header__nav" items={[
                         { url: "#", src: gh, alt: "Github" },
                         { url: "#", src: tw, alt: "Twitter" },
                         { url: "#", src: ln, alt: "LinkedIn" },
-
                     ]}/>
                 </div>
             </Header>
